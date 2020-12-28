@@ -1,0 +1,13 @@
+Freeware: Diese Software dürfen Sie und andere für unbegrenzte Zeit zu jedem legalen Zweck benutzen.
+
+Sie dürfen sie kopieren und verteilen, solange die originalen Copyright- und Garantieangaben erhalten bleiben und keinerlei Geld oder Gebühren (außer Versandkosten) verlangt werden.
+
+Die Copyright- und Eigentumsrechte des Authors bleiben unberührt. Änderungen der Software, sowie De-Kompilierung oder Reverse-Engineering sind nicht gestattet.
+
+Haftungseinschränkung: Die Software wird so wie sie ist ohne jede Garantie zur Verfügung gestellt und darf ausschließlich auf eigenes Risiko benutzt werden.
+
+Limited warranty: The Software is "as is" without any warranty as to their performance, merchantability or fitness for any particular purpose. The licensee assumes the entire risk as to the quality and performance of the software. In no event shall the author or anyone else who has been involved in the creation, development, production, or delivery of this software be liable for any direct, incidental or consequential damages, such as, but not limited to, loss of anticipated profits, benefits, use, or data resulting from the use of this software, or arising out of any breach of warranty.
+
+Copyright (C) 2016 by Peter Pagel, Glinde, Germany.
+E-Mail: peter.pagel@web.de
+Alle Rechte vorbehalten.

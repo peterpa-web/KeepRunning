@@ -1,0 +1,11 @@
+Freeware: You are granted a non-exclusive License to use the Software for any legal purposes for an unlimited period of time.
+
+The Software can be copied and distributed under the condition that original copyright notice and disclaimer of warranty will stay intact and no money or fees are charged for the Software, except covering distribution costs.
+
+The Author retains all copyrights and other proprietary rights in and to the Software. You may not modify, de-compile, disassemble or reverse engineer the Software.
+
+Limited warranty: The Software is "as is" without any warranty as to their performance, merchantability or fitness for any particular purpose. The licensee assumes the entire risk as to the quality and performance of the software. In no event shall the author or anyone else who has been involved in the creation, development, production, or delivery of this software be liable for any direct, incidental or consequential damages, such as, but not limited to, loss of anticipated profits, benefits, use, or data resulting from the use of this software, or arising out of any breach of warranty.
+
+Copyright (C) 2016 by Peter Pagel, Glinde, Germany.
+Email: peter.pagel@web.de
+All rights reserved.

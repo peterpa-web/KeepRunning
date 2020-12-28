@@ -1,0 +1,18 @@
+KeepWinRunning
+Systemsoftware / Desktop / sonst.
+18.3.16
+Verhindert das Einschlafen des Systems,  solange eine der ausgewählten Anwendungen, wie z.B. eine Video-Aufzeichnung läuft. Startet im Hintergrund und ist als Icon in der Taskleiste sichtbar. Durch Doppelklick auf das Icon gelangt man zum Einstellungsfenster, das die aktuell laufenden Anwendungen auflistet. Dort können sie zur Beobachtung ausgewählt werden.
+
+Einschlafen
+85 K
+
+Win 7 - 10
+
+Visual C++ Redistributable for Visual Studio 2015 (x86)
+
+kostenlos
+
+keine
+
+dt / en
+
