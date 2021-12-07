@@ -13,9 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="MakeSetup">
+      <UniqueIdentifier>{cb428c17-dc5c-4dbb-9fba-30ff65d0029c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Setup">
+      <UniqueIdentifier>{436fde06-156a-4339-8080-047da167ef06}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
+    <Text Include="..\MakeSetup\license.txt">
+      <Filter>MakeSetup</Filter>
+    </Text>
+    <Text Include="..\MakeSetup\licenseDEU.txt">
+      <Filter>MakeSetup</Filter>
+    </Text>
+    <Text Include="..\MakeSetup\readme.txt">
+      <Filter>MakeSetup</Filter>
+    </Text>
+    <Text Include="..\MakeSetup\readmeDEU.txt">
+      <Filter>MakeSetup</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="KeepWinRunning.h">
@@ -59,6 +77,12 @@
   <ItemGroup>
     <None Include="res\KeepWinRunning.rc2">
       <Filter>Ressourcendateien</Filter>
+    </None>
+    <None Include="..\MakeSetup\KeepWinRunningSetup.nsi">
+      <Filter>MakeSetup</Filter>
+    </None>
+    <None Include="..\MakeSetup\KeepWinRunningSetup.exe">
+      <Filter>Setup</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

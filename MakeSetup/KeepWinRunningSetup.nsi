@@ -92,7 +92,7 @@ LangString adminOnly ${LANG_GERMAN} "Nur für Administratoren"
 Function checkRuntime
   ReadRegStr $1 HKLM "SOFTWARE\Wow6432Node\Microsoft\VisualStudio\14.0\VC\Runtimes\x86" "Installed"
   StrCmp $1 1 RTinstalled
-    MessageBox MB_OK "Visual C++ Redistributable for Visual Studio 2015 (x86) $(requTxt) https://www.microsoft.com/download"
+    MessageBox MB_OK "Visual C++ Redistributable for Visual Studio 2022 (x86) $(requTxt) https://www.microsoft.com/download"
     Quit
 
 RTinstalled:
