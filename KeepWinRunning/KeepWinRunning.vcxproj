@@ -186,7 +186,7 @@
     <Text Include="..\MakeSetup\licenseDEU.txt" />
     <Text Include="..\MakeSetup\readme.txt" />
     <Text Include="..\MakeSetup\readmeDEU.txt" />
-    <Text Include="ReadMe.txt" />
+    <Text Include="..\ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="KeepWinRunning.h" />
@@ -211,7 +211,6 @@
     <ResourceCompile Include="KeepWinRunning.rc" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\MakeSetup\KeepWinRunningSetup.exe" />
     <None Include="..\MakeSetup\KeepWinRunningSetup.nsi" />
     <None Include="res\KeepWinRunning.rc2" />
   </ItemGroup>

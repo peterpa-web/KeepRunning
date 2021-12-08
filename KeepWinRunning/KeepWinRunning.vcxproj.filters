@@ -16,12 +16,8 @@
     <Filter Include="MakeSetup">
       <UniqueIdentifier>{cb428c17-dc5c-4dbb-9fba-30ff65d0029c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Setup">
-      <UniqueIdentifier>{436fde06-156a-4339-8080-047da167ef06}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
     <Text Include="..\MakeSetup\license.txt">
       <Filter>MakeSetup</Filter>
     </Text>
@@ -34,6 +30,7 @@
     <Text Include="..\MakeSetup\readmeDEU.txt">
       <Filter>MakeSetup</Filter>
     </Text>
+    <Text Include="..\ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="KeepWinRunning.h">
@@ -80,9 +77,6 @@
     </None>
     <None Include="..\MakeSetup\KeepWinRunningSetup.nsi">
       <Filter>MakeSetup</Filter>
-    </None>
-    <None Include="..\MakeSetup\KeepWinRunningSetup.exe">
-      <Filter>Setup</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
