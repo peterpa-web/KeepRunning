@@ -125,7 +125,8 @@ BOOL CKeepWinRunningDlg::OnInitDialog()
 
 	HINSTANCE hInst = AfxGetResourceHandle();
 //	m_hIcon     = (HICON)LoadImage( hInst, MAKEINTRESOURCE(IDR_MAINFRAME), IMAGE_ICON, 16, 16, 0);
-	m_hIconBusy = (HICON)LoadImage( hInst, MAKEINTRESOURCE(IDI_BUSY), IMAGE_ICON, 48, 48, 0);
+//	m_hIconBusy = (HICON)LoadImage( hInst, MAKEINTRESOURCE(IDI_BUSY), IMAGE_ICON, 48, 48, 0);
+	m_hIconBusy = (HICON)LoadImage( hInst, MAKEINTRESOURCE(IDI_BUSY), IMAGE_ICON, 20, 20, 0);
 
 	VERIFY( m_menuPopup.LoadMenu(IDR_MENU1) );
 	m_tnd.cbSize		= sizeof(NOTIFYICONDATA);
