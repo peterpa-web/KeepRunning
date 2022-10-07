@@ -28,12 +28,12 @@ public:
 
 // Implementation
 protected:
-	HICON m_hIcon;
-	HICON m_hIconBusy;
+	HICON m_hIcon = NULL;
+	HICON m_hIconBusy = NULL;
 	NOTIFYICONDATA m_tnd;
 	CMenu m_menuPopup;
-	UINT_PTR m_nTimer;
-	BOOL m_bVisible;
+	UINT_PTR m_nTimer = 0;
+	BOOL m_bVisible = false;
 
 	// Generated message map functions
 	virtual BOOL OnInitDialog();

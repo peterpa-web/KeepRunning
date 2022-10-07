@@ -154,6 +154,7 @@ void CListProc::Snap()
 void CListProc::RemoveServices()
 {
 	DWORD dwExplorerPID = FindExplorerPID();
+	DWORD dwFirefoxPID = 0;
 
 	POSITION pos = GetHeadPosition();
 	while ( pos != NULL )
@@ -163,9 +164,35 @@ void CListProc::RemoveServices()
 		if ( el.bReg )
 			continue;	// keep reg elements
 
+		TRACE3("%x %s p=%x\n", el.dwProcId, (LPCTSTR)el.sExe, el.dwParentId);
+
 		if ( el.dwParentId == 0 ||
+			 el.dwParentId == dwFirefoxPID ||
 			 el.dwParentId != dwExplorerPID ) {
+			if (dwFirefoxPID == 0) {
+				if (el.sExe.Compare(L"firefox.exe") == 0) {
+					dwFirefoxPID = el.dwProcId;
+					continue;
+				}
+			}
 			RemoveAt( posCurr );
+			continue;
+		}
+		if (el.sExe.Compare(L"SecurityHealthSystray.exe") == 0) {
+			RemoveAt( posCurr );
+			continue;
+		}
+		if (el.sExe.Compare(L"RAVCpl64.exe") == 0) {
+			RemoveAt( posCurr );
+			continue;
+		}
+		if (el.sExe.Compare(L"OneDrive.exe") == 0) {
+			RemoveAt( posCurr );
+			continue;
+		}
+		if (el.sExe.Compare(L"msedge.exe") == 0) {
+			RemoveAt( posCurr );
+			continue;
 		}
 	}
 }
