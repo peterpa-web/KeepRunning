@@ -1,3 +1,5 @@
+; Needs: https://nsis.sourceforge.io/ShellExecAsUser_plug-in
+
 !include "FileFunc.nsh"
 
 !define MYAPP KeepWinRunning
@@ -146,6 +148,11 @@ IsAdmin:
 
 SectionEnd
 
+; Optional section (can be disabled by the user)
+Section "start KeepWinRunning"
+  
+  ShellExecAsUser::ShellExecAsUser "open" '$INSTDIR\KeepWinRunning.exe'
+SectionEnd
 
 ;--------------------------------
 
